@@ -1,0 +1,38 @@
+{
+  "uuid": "ce7e60ac-59b4-4c9d-8a13-9c8f84607798",
+  "shortName": "BasicFace",
+  "longName": "BasicFace",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_TEMPERATURE": 0,
+    "KEY_CONDITIONS": 1
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "name": "APERCU_30",
+        "file": "/fonts/apercu.ttf"
+      },
+      {
+        "type": "font",
+        "name": "APERCU_15",
+        "file": "/fonts/apercu.ttf"
+      },
+      {
+        "type":"png",
+        "name":"BACKGROUND",
+        "file":"images/background.png"
+      }
+    ]
+  },
+  "capabilities":
+    ["location"]
+}
